@@ -1,0 +1,23 @@
+{
+  "name": "week9-coding-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djg9/week9-coding-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djg9/week9-coding-assignment/issues"
+  },
+  "homepage": "https://github.com/djg9/week9-coding-assignment#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.6.0"
+  }
+}
