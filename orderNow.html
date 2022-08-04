@@ -34,11 +34,44 @@
     </nav> <br>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <form></form>
+        <form>
+            <div class="form-row">
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label for="formControlInput1">Name</label>
+                        <input type="text" class="form-control" 
+                            id="formControlInput1" placeholder="Your name here">
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" 
+                                id="check1" name="pizza1" value="Cheese">
+                            <label class="form-check-label" for="check1">Cheese</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" 
+                                id="check2" name="pizza2" value="Hawaiian">
+                            <label class="form-check-label" for="check2">Hawaiian</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" 
+                                id="check3" name="pizza3" value="Meat Lover's">
+                            <label class="form-check-label" for="check3">Meat Lover's</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" 
+                                id="check4" name="pizza4" value="Veggie">
+                            <label class="form-check-label" for="check4">Veggie</label>
+                        </div> <br>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
 </body>
 </html>
